@@ -11,9 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Lundy, Robert (2025) Synaptic connectivity of central nucleus of the amygdala
-  with GABA and glutamate expressing neurons in the nucleus of the solitary tract
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001451/draft
+citation: Lundy, Robert; Bartonjo, Jane (2025) Synaptic connectivity of central nucleus
+  of the amygdala with GABA and glutamate expressing neurons in the nucleus of the
+  solitary tract (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001451/draft
 contributor:
 - affiliation: []
   email: r0lund01@louisville.edu
@@ -23,7 +23,10 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - identifier: 0000-0002-3844-3208
+  includeInCitation: true
   name: Bartonjo, Jane
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2025-05-16T16:48:05.101151+00:00'
 description: 'Several forebrain areas project to the nucleus of the solitary tract
