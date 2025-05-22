@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -21,6 +22,9 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: 0000-0002-3844-3208
+  name: Bartonjo, Jane
+  schemaKey: Person
 dateCreated: '2025-05-16T16:48:05.101151+00:00'
 description: 'Several forebrain areas project to the nucleus of the solitary tract
   (NST) and modulate neural processing of orosensory gustatory information.  Some
@@ -38,16 +42,23 @@ description: 'Several forebrain areas project to the nucleus of the solitary tra
   to these rNST neuronal populations may influence diverse processes including coding
   of ascending gustatory information and orosensory modulation of licking, mastication,
   and salivation.  '
+ethicsApproval: []
 id: DANDI:001451/draft
 identifier: DANDI:001451
+keywords:
+- amygdala
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001451/versions/draft/assets/
 name: Synaptic connectivity of central nucleus of the amygdala with GABA and glutamate
   expressing neurons in the nucleus of the solitary tract
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget:
+- amygdala brainstem connectivity
 url: https://dandiarchive.org/dandiset/001451/draft
 version: draft
+wasGeneratedBy: []
